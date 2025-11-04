@@ -22,7 +22,7 @@ img {
 .container {
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 .navigation {
     display:flex;
@@ -36,6 +36,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 .accent-head {
     color: #2e2f42;
@@ -46,6 +47,11 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding: 24px 0;
+}
+.nav-list-link {
+    display: flex;
+    gap: 40px;
 }
 
 .address-link {
@@ -53,6 +59,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.address-container {
+    display: flex;
+    gap: 40px;
 }
 .hero {
     background-color: #2e2f42;
