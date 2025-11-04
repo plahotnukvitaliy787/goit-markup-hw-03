@@ -120,7 +120,7 @@ img {
     gap: 24px;
 }
 .progect-list-object {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .title-progect {
     font-weight: 500;
@@ -181,6 +181,7 @@ img {
 .portfolio-list-object {
     width: calc((100% - 48px) / 3);
 }
+
 .portfolio-name-object {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
