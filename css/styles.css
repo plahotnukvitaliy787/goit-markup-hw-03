@@ -120,7 +120,7 @@ img {
     gap: 24px;
 }
 .progect-list-object {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .title-progect {
     font-weight: 500;
@@ -159,7 +159,7 @@ img {
 .team-agent-list {
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .team-agent {
     background-color: #FFFFFF;
