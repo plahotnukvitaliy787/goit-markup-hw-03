@@ -118,10 +118,9 @@ img {
 .progect-list {
     display: flex;
     gap: 24px;
-    flex-basis: calc((100% - 72px) / 4);
 }
 .progect-list-object {
-    
+    width: calc((100% - 3 * 24px) / 4);
 }
 .title-progect {
     font-weight: 500;
