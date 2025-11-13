@@ -28,6 +28,7 @@ img {
 .nav-list-start {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .container {
     width: 1158px;
@@ -63,6 +64,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
+    display: block;
 }
 .address-container {
     display: flex;
@@ -86,6 +88,7 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     max-width: 496px;
+    margin: 0 auto 48px auto;
 }
 .hero-button {
     background-color: #4d5ae5;
@@ -100,6 +103,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
     }
 .hero-button:hover,
 .hero-button:focus {
